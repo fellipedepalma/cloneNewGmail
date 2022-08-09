@@ -6,7 +6,32 @@
 
 .container {
     display: grid;
+    grid-template-columns: 256px 1128px 56px;
+    grid-template-rows: 64px calc(100vh - 64px);
+    grid-template-areas: 
+        "header header header"
+        "sidemenu boxmail sidepanel";
     background-color: #f6f8fc;
-    width: 100vw;
-    height: 100vh;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.header {
+    grid-area: header;
+    background-color: #d2a391;
+}
+
+.sidemenu {
+    grid-area: sidemenu;
+    background-color: #a04f62;
+}
+
+.boxmail {
+    grid-area: boxmail;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.sidepanel {
+    grid-area: sidepanel;
+    background-color: #4c264b;
 }
