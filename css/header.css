@@ -1,0 +1,27 @@
+.header {
+    grid-area: header;
+    padding: .5rem;
+    display: flex;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    width: 238px;
+}
+
+.header-logo button {
+    margin: 0 4px;
+}
+
+.header-search {
+    width: 70.3651%;
+    padding: 0 30px 0 10px;
+    align-items: center;
+}
+
+.header-settings {
+    display: flex;
+    width: 184px;
+    align-items: center;
+}

@@ -15,10 +15,16 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.header {
-    grid-area: header;
-    background-color: #d2a391;
+button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    padding: 12px;
+    background-color: transparent;
 }
+
+
 
 .sidemenu {
     grid-area: sidemenu;

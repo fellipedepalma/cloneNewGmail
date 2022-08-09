@@ -8,14 +8,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
 
     <title>Caixa de Entrada - gmail@gmail.com - Gmail</title>
 </head>
 <body>
 <main class="container">
-    <header class="header"></header>
+    <header class="header">
+        <div class="header-logo">
+            <button>
+                <span class="material-symbols-rounded">
+                    menu
+                </span>
+            </button>
+            <img src="img/logo_gmail_lockup_default_1x_r4.png" alt="">
+        </div>
+        <div class="header-search">
+            <form action="">
+                <button>
+                    <span class="material-symbols-rounded">
+                        search
+                    </span>
+                </button>
+                <input type="search" name="" id="">
+                <button>
+                    <span class="material-symbols-rounded">
+                        tune
+                    </span>
+                </button>
+            </form>
+        </div>
+        <div class="header-settings">
+            <span class="material-symbols-outlined">help</span>
+            <span class="material-symbols-outlined">settings</span>
+            <span class="material-symbols-outlined">apps</span>
+            <div class="account">F</div>    
+        </div>
+    </header>
     <aside class="sidemenu"></aside>
     <section class="boxmail"></section>
     <aside class="sidepanel"></aside> 
