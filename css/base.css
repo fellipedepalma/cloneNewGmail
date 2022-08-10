@@ -6,11 +6,11 @@
 
 .container {
     display: grid;
-    grid-template-columns: 256px 1128px 56px;
+    grid-template-columns: 256px 812px 316px 56px;
     grid-template-rows: 64px calc(100vh - 64px);
     grid-template-areas: 
-        "header header header"
-        "sidemenu boxmail sidepanel";
+        "header header header header"
+        "sidemenu boxmail quicksettings sidepanel";
     background-color: #f6f8fc;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -28,7 +28,7 @@ button {
 
 .sidemenu {
     grid-area: sidemenu;
-    background-color: #a04f62;
+    outline: 1px solid rgba(160, 79, 98, .2);
 }
 
 .boxmail {
@@ -37,7 +37,14 @@ button {
     border-radius: 1rem;
 }
 
+.quicksettings {
+    grid-area: quicksettings;
+    background-color: #fff;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
 .sidepanel {
     grid-area: sidepanel;
-    background-color: #4c264b;
+    outline: 1px solid rgba(160, 79, 98, .2);
 }
