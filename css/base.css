@@ -24,6 +24,10 @@ button {
     background-color: transparent;
 }
 
+button:hover {
+    background-color: #3c404314;
+}
+
 
 
 .sidemenu {
