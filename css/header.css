@@ -10,8 +10,9 @@
     width: 238px;
 }
 
-.header-logo button {
+.header-logo-button {
     margin: 0 4px;
+    color: #5f6368;
 }
 
 .header-search {
@@ -28,22 +29,23 @@
     justify-content: space-between;
 }
 
-.header-search form > button {
-}
-
-.header-search form > button:hover {
-
-}
-
-.material-symbols-rounded {
-}
-
 .header-search form > input {
     flex: 1;
+    background-color: transparent;
+    border: none;
+    font: 1rem 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .header-settings {
     display: flex;
     width: 184px;
     align-items: center;
+    justify-content: end;
+}
+
+.header-settings > span {
+    width: 44px;
+    height: 44px;
+    margin: 0 2px;
+    padding: 8px;
 }
