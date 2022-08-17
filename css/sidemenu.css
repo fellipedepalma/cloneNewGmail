@@ -5,7 +5,41 @@
 
 .button-new-email {
     width: 100%;
+    height: 56px;
     outline: 1px solid purple;
     padding-left: .5rem;
     margin: .5rem 0 1rem;
+}
+
+.menuside ul {
+    width: 100%;
+    /* overflow-y: scroll; */
+}
+
+.menuside > ul > li {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border-radius: 0 1rem 1rem 0;
+    padding: 0 0.75rem 0 1.625rem ;
+    color: #202124;
+    font-size: 0.875rem;
+}
+
+.menuside > ul > li:hover {
+    background-color: #3c404314;
+}
+
+.menuside > ul > li:first-child {
+    background-color: #d3e3fd;
+    font-weight: bold;
+    color: #001d35;
+}
+
+.menuside > ul > li > span {
+
+    font-size: 1.25rem;
+    margin-right: 1.125rem;
+
 }
