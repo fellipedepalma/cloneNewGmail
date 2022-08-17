@@ -1,0 +1,11 @@
+.sidemenu {
+    grid-area: sidemenu;
+    outline: 1px solid rgba(160, 79, 98, .2);
+}
+
+.button-new-email {
+    width: 100%;
+    outline: 1px solid purple;
+    padding-left: .5rem;
+    margin: .5rem 0 1rem;
+}
